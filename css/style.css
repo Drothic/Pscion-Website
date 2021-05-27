@@ -23,12 +23,14 @@ a, a:hover {
 
 .greenInteraction {
     color: #48f348;
-}
-
-.btn-dark {
-    color: #48f348;
     border-color: #48f348;
 }
+
+.tab-pane {
+    border: 1px solid #48f348;
+    
+}
+
 
 #mainParagraph {
     margin-bottom: 50px;
