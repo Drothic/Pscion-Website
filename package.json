@@ -24,9 +24,9 @@
     "scss": "node-sass -o css/ css/",
     "watch:scss": "onchange \"css/*.scss\" -- npm run scss",
     "watch:all": "parallelshell \"npm run watch:scss\" \"npm run lite\"",
-    "imagemin": "imagemin img/* -o dist/img",
-    "usemin": "usemin index.html -dist --htmlmin -o dist/index.html && usemin player-guide.html -dist --htmlmin -o dist/player-guide.html && usemin gm-guide.html -dist --htmlmin -o dist/gm-guide.html && usemin items.html -dist --htmlmin -o dist/items.html && usemin rules.html -dist --htmlmin -o dist/rules.html",
-    "clean": "rimraf dist",
+    "imagemin": "imagemin images/* -o dist/images",
+    "usemin": "usemin index.html -d dist -o dist/index.html --htmlmin && usemin player-guide.html -d dist true -o dist/player-guide.html --htmlmin && usemin gm-guide.html -d dist -o dist/gm-guide.html --htmlmin && usemin items.html -d dist -o dist/items.html --htmlmin && usemin rules.html -d dist -o dist/rules.html --htmlmin",
+    "clean": "rimraf dist/*",
     "build": "npm run clean && npm run imagemin && npm run usemin"
   },
   "author": "",
