@@ -24,87 +24,204 @@
 <body>
 
     <nav class="navbar navbar-fluid navbar-expand-sm navbar-dark sticky-top">
-        <div class="container">
-          <div class="collapse navbar-collapse" id="psciNavbar">
-            <ul class="navbar-nav">
-              <li class="nav-item"><a class="nav-link" href="index.html"><strong> Home</strong></a></li>
-              <li class="nav-item active"><a class="nav-link" href="#"><strong> Player Guide</strong></a></li>
-              <li class="nav-item"><a class="nav-link" href="gm-guide.html"><strong> GM Guide</strong></a></li>
-              <li class="nav-item"><a class="nav-link" href="items.html"><strong> Items Index</strong></a></li>
-              <li class="nav-item"><a class="nav-link" href="rules.html"><strong> Rules Index</strong></a></li>
-            </ul>
-          </div>
+      <div class="container">
+        <div class="collapse navbar-collapse" id="psciNavbar">
+          <ul class="navbar-nav">
+            <li class="nav-item"><a class="nav-link" href="index.html"><strong> Home</strong></a></li>
+            <li class="nav-item active"><a class="nav-link" href="#"><strong> Player Guide</strong></a></li>
+            <li class="nav-item"><a class="nav-link" href="gm-guide.html"><strong> GM Guide</strong></a></li>
+            <li class="nav-item"><a class="nav-link" href="items.html"><strong> Items Index</strong></a></li>
+            <li class="nav-item"><a class="nav-link" href="rules.html"><strong> Rules Index</strong></a></li>
+          </ul>
         </div>
-      </nav>
+      </div>
+    </nav>
       <br/>
 
     <div class="container bg-dark py-4">
-        <div class="row">
-          <div class="col-12" id="mainParagraph">
-            <h1>How to Play</h1>
-            <h3>Flow of Play</h3>
-            <p>explanation of general interaction/combat dichotomy</p>
-          </div>
-          <div class="col-12" id="mainParagraph">
-            <h3>Interation with the world.</h3>
-            <p>explanation of skills and rolls with respect to non-combat play</p>
-            <div class="text-center">
-              <button class="btn greenInteraction pt-3" id="normPlayBtn"><h4>Example</h4></button>
-              <p class="collapse" id="normPlayP">short example of 2 person play where the player interacts and makes a couple rolls</p>
-            </div>
-          </div>
-          <div class="col-12" id="mainParagraph">
-            <h3>Combat</h3>
-            <p>explanation of the combat system</p>
-            <div class="text-center">
-              <button class="btn greenInteraction pt-3" id="combatBtn"><h4>Example</h4></button>
-              <p class="collapse" id="combatP">short example of 2 person play where the player engages in combat with an enemy</p>
-            </div>
+      <div class="row">
+        <div class="col-12" id="mainParagraph">
+          <h1>How to Play</h1>
+          <h3>Flow of Play</h3>
+          <p>explanation of general interaction/combat dichotomy</p>
+        </div>
+        <div class="col-12" id="mainParagraph">
+          <h3>Interation with the world.</h3>
+          <p>explanation of skills and rolls with respect to non-combat play</p>
+          <div class="text-center">
+            <button class="btn greenInteraction pt-3" id="normPlayBtn"><h4>Example</h4></button>
+            <p class="collapse" id="normPlayP">short example of 2 person play where the player interacts and makes a couple rolls</p>
           </div>
         </div>
-        
-        <div class="row">
-          <div class="col-12" id="mainParagraph">
-            <h1>Character Creation</h1>
-            <h3>Rolling your Stats</h3>
-            <p>instruction on how to roll stats</p>
+        <div class="col-12" id="mainParagraph">
+          <h3>Combat</h3>
+          <p>explanation of the combat system</p>
+          <div class="text-center">
+            <button class="btn greenInteraction pt-3" id="combatBtn"><h4>Example</h4></button>
+            <p class="collapse" id="combatP">short example of 2 person play where the player engages in combat with an enemy</p>
           </div>
-          <div class="col-10" id="mainParagraph">
-            <h3>Choosing your Character Species</h3>
-            <ul class="nav nav-tabs">
-              <li class="nav-item"><a class="nav-link active greenInteraction" href="#specOne" role="tab" data-toggle="tab">Species 1</a></li>
-              <li class="nav-item"><a class="nav-link greenInteraction" href="#specTwo" role="tab" data-toggle="tab">Species 2</a></li>
-              <li class="nav-item"><a class="nav-link greenInteraction" href="#specThree" role="tab" data-toggle="tab">Species 3</a></li>
-            </ul>
-            <div class="tab-content">
-              <div role="tabpanel" class="tab-pane show active" id="specOne">
-                <div class="media">
-                  <div class="row">
-                    <div class="col-6">
-                      <img src="images/exampleimage.png" alt="example image">
-                    </div>
-                    <div class="media-body col-6">
-                      <h4>Species Name</h4>
-                      <p>species description and stats</p>
-                    </div>
-                  </div>  
+        </div>
+      </div>
+        
+      <div class="row">
+        <div class="col-12" id="mainParagraph">
+          <h1>Character Creation</h1>
+          <h3>Rolling your Stats</h3>
+          <p>instruction on how to roll stats</p>
+        </div>
+        <div class="col-10" id="mainParagraph">
+          <h3>Choosing your Character Species</h3>
+          <ul class="nav nav-tabs">
+            <li class="nav-item">
+              <a class="nav-link greenInteraction active" role="tab" data-bs-toggle="tab" href="#specOne">Species1</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link greenInteraction" role="tab" data-bs-toggle="tab" href="#specTwo">Species2</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link greenInteraction" role="tab" data-bs-toggle="tab" href="#specThree">Species3</a>
+            </li>
+          </ul>
+          <div class="tab-content">
+            <div role="tabpanel" class="tab-pane fade show active" id="specOne">
+              <div class="media">
+                <div class="row">
+                  <div class="col-6">
+                    <img src="images/exampleimage.png" alt="example image">
+                  </div>
+                  <div class="media-body col-6">
+                    <h4>Species Name</h4>
+                    <p>species description and stats</p>
+                  </div>
+                </div>  
+              </div>
+            </div>
+            <div role="tabpanel" class="tab-pane fade" id="specTwo">
+              <div class="media">
+                <div class="row">
+                  <div class="col-6">
+                    <img src="images/exampleimage.png" alt="example image">
+                  </div>
+                  <div class="media-body col-6">
+                    <h4>Species Name2</h4>
+                    <p>species description and stats</p>
+                  </div>
+                </div>  
+              </div>
+            </div>
+            <div role="tabpanel" class="tab-pane fade" id="specThree">
+              <div class="media">
+                <div class="row">
+                  <div class="col-6">
+                    <img src="images/exampleimage.png" alt="example image">
+                  </div>
+                  <div class="media-body col-6">
+                    <h4>Species Name3</h4>
+                    <p>species description and stats</p>
+                  </div>
+                </div>  
+              </div>
+            </div>
+          </div>
+          <div class="col-12 mt-5" id="mainParagraph">
+            <h3>Choosing your Background and Traits</h3>
+            <p>explanation of backgrounds and traits</p> <br/>
+            <h4>Backgrounds</h4>
+            <div class="accordion" id="bgAcc">
+              <div class="accordion-item">
+                <h3 class="accordion-header" id="bgHeadOne">
+                  <button class="accordion-button greenInteraction bg-dark" type="button" data-bs-toggle="collapse" data-bs-target="#bgBodyOne">
+                    <div>Background One</div>
+                  </button>
+                </h3>
+                <div class="accordion-collapse collapse" data-bs-parent="#bgAcc" id="bgBodyOne">
+                  <div class="accordion-body">
+                    background info one
+                  </div>
                 </div>
               </div>
-              <div role="tabpanel" class="tab-pane" id="specTwo">
-                dadada
+              <div class="accordion-item">
+                <h3 class="accordion-header" id="bgHeadTwo">
+                  <button class="accordion-button greenInteraction bg-dark" type="button" data-bs-toggle="collapse" data-bs-target="#bgBodyTwo">
+                    <div>Background Two</div>
+                  </button>
+                </h3>
+                <div class="accordion-collapse collapse" data-bs-parent="#bgAcc" id="bgBodyTwo">
+                  <div class="accordion-body">
+                    background info two
+                  </div>
+                </div>
               </div>
-              <div role="tabpanel" class="tab-pane" id="specThree">
-                jgfjjfg
+              <div class="accordion-item">
+                <h3 class="accordion-header" id="bgHeadThree">
+                  <button class="accordion-button greenInteraction bg-dark" type="button" data-bs-toggle="collapse" data-bs-target="#bgBodyThree">
+                    <div>Background Three</div>
+                  </button>
+                </h3>
+                <div class="accordion-collapse collapse" data-bs-parent="#bgAcc" id="bgBodyThree">
+                  <div class="accordion-body">
+                    background info three
+                  </div>
+                </div>
+              </div>
+            </div>
+            <br/>
+            <h4>Traits</h4>
+            <div class="accordion" id="traitAcc">
+              <div class="accordion-item">
+                <h3 class="accordion-header" id="traitHeadOne">
+                  <button class="accordion-button greenInteraction bg-dark" type="button" data-bs-toggle="collapse" data-bs-target="#traitBodyOne">
+                    <div>Trait One</div>
+                  </button>
+                </h3>
+                <div class="accordion-collapse collapse" data-bs-parent="#traitAcc" id="traitBodyOne">
+                  <div class="accordion-body">
+                    trait info one
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h3 class="accordion-header" id="traitHeadTwo">
+                  <button class="accordion-button greenInteraction bg-dark" type="button" data-bs-toggle="collapse" data-bs-target="#traitBodyTwo">
+                    <div>Trait Two</div>
+                  </button>
+                </h3>
+                <div class="accordion-collapse collapse" data-bs-parent="#traitAcc" id="traitBodyTwo">
+                  <div class="accordion-body">
+                    trait info two
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h3 class="accordion-header" id="traitHeadThree">
+                  <button class="accordion-button greenInteraction bg-dark" type="button" data-bs-toggle="collapse" data-bs-target="#traitBodyThree">
+                    <div>Trait Three</div>
+                  </button>
+                </h3>
+                <div class="accordion-collapse collapse" data-bs-parent="#traitAcc" id="traitBodyThree">
+                  <div class="accordion-body">
+                    Trait info three
+                  </div>
+                </div>
               </div>
             </div>
           </div>
+          <div class="col-12" id="mainParagraph">
+            <h3>Purchasing your Gear</h3>
+            <p>instruction on how to purchase starting gear</p>
+          </div>
+          <div class="col">
+            <h3>Skill Points</h3>
+            <p>explanation of skill point system</p>
+          </div>
         </div>
+      </div>
     </div>  
 
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.min.js" crossorigin="anonymous"></script>
-    <script src="js/scripts.js"></script> 
+    <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="js/scripts.js"></script>
+
 </body>
 
 </html>

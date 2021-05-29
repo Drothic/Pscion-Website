@@ -40,14 +40,95 @@
 
     <div class="container bg-dark py-4">
         <div class="row">
-
+          <div class="col-12" id="mainParagraph">
+            <h3>Weapons</h3>
+            <div class="accordion" id="weaponAcc">
+              <div class="accordion-item">
+                <h3 class="accordion-header" id="weaponHeadOne">
+                  <button class="accordion-button greenInteraction bg-dark" type="button" data-bs-toggle="collapse" data-bs-target="#weaponBodyOne">
+                    <div>Weapon Base One</div>
+                  </button>
+                </h3>
+                <div class="accordion-collapse collapse" data-bs-parent="#weaponAcc" id="weaponBodyOne">
+                  <div class="accordion-body">
+                    weapon info one
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h3 class="accordion-header" id="weaponHeadTwo">
+                  <button class="accordion-button greenInteraction bg-dark" type="button" data-bs-toggle="collapse" data-bs-target="#weaponBodyTwo">
+                    <div>Weapon Base Two</div>
+                  </button>
+                </h3>
+                <div class="accordion-collapse collapse" data-bs-parent="#weaponAcc" id="weaponBodyTwo">
+                  <div class="accordion-body">
+                    weapon info two
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h3 class="accordion-header" id="weaponHeadThree">
+                  <button class="accordion-button greenInteraction bg-dark" type="button" data-bs-toggle="collapse" data-bs-target="#weaponBodyThree">
+                    <div>Weapon Base Three</div>
+                  </button>
+                </h3>
+                <div class="accordion-collapse collapse" data-bs-parent="#weaponAcc" id="weaponBodyThree">
+                  <div class="accordion-body">
+                    weapon info three
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12" id="mainParagraph">
+            <h3>Item Type</h3>
+            <div class="accordion" id="itemAcc">
+              <div class="accordion-item">
+                <h3 class="accordion-header" id="itemHeadOne">
+                  <button class="accordion-button greenInteraction bg-dark" type="button" data-bs-toggle="collapse" data-bs-target="#itemBodyOne">
+                    <div>Item One</div>
+                  </button>
+                </h3>
+                <div class="accordion-collapse collapse" data-bs-parent="#itemAcc" id="itemBodyOne">
+                  <div class="accordion-body">
+                    item info one
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h3 class="accordion-header" id="itemHeadTwo">
+                  <button class="accordion-button greenInteraction bg-dark" type="button" data-bs-toggle="collapse" data-bs-target="#itemBodyTwo">
+                    <div>Item Two</div>
+                  </button>
+                </h3>
+                <div class="accordion-collapse collapse" data-bs-parent="#itemAcc" id="itemBodyTwo">
+                  <div class="accordion-body">
+                    item info two
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h3 class="accordion-header" id="itemHeadThree">
+                  <button class="accordion-button greenInteraction bg-dark" type="button" data-bs-toggle="collapse" data-bs-target="#itemBodyThree">
+                    <div>Item Three</div>
+                  </button>
+                </h3>
+                <div class="accordion-collapse collapse" data-bs-parent="#itemAcc" id="itemBodyThree">
+                  <div class="accordion-body">
+                    item info three
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
     </div>  
 
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.min.js" crossorigin="anonymous"></script>
-    <script src="js/scripts.js"></script> 
+    <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="js/scripts.js"></script>
+
 </body>
 
 </html>

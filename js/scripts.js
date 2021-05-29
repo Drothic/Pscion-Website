@@ -18,5 +18,4 @@ $(function(){
             $('#combatP').addClass('collapse');
         }
     });
-    
 });
